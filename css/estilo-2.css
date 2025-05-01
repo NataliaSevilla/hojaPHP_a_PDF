@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 50pt 15pt;
+}
+/* tablas al centro */
+.cabecera,
+.datos,
+.actividad,
+.firmas,
+.boton {
+  margin: 0 auto;
+}
+
+/* tablas con bordes y estilos. */
+.datos {
+  border-collapse: collapse;
+}
+.datos tr td {
+  padding-left: 5px;
+  border: 1px solid black;
+  width: 450px;
+}
+
+.actividad {
+  border-collapse: collapse;
+}
+.actividad tr td,
+th {
+  margin: 0;
+  border: 1px solid black;
+}
+
+/* cabecera .. */
+td {
+  width: 300px;
+  height: 10px;
+}
+/*Color coorporativo chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.juntadeandalucia.es/export/drupaljda/JdA-Manual-IC-PaletaColor.pdf*/
+h5 {
+  color: #007932 !important;
+}
+.junta {
+  display: inline;
+  text-align: left;
+}
+.consejeria {
+  display: inline;
+  text-align: right;
+}
+.hoja-numero {
+  text-align: right;
+  font-size: x-small;
+}
+h6 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: small;
+}
+
+/* Datos */
+
+/* actividad */
+.actividad th,
+.chico {
+  font-size: x-small;
+  text-align: center;
+}
+.chico {
+  width: 60px;
+}
+
+.grande {
+  width: 390px;
+}
+
+.blanco {
+  color: white;
+}
+input[type="number"] {
+  width: 30px;
+  border: none;
+}
+input[type="text"] {
+  border: none;
+  font-size: x-small;
+}
+input[type="number"],
+label {
+  margin-top: 10px;
+}
+textarea {
+  height: auto;
+  overflow: hidden;
+  border: none;
+  margin-top: 10px !important;
+  width: 380px;
+  margin: 5px;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  border-radius: 10px;
+  color: #007932;
+  border: 1px solid #007932;
+}
+
+/* firmas */

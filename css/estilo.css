@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Color coorporativo chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.juntadeandalucia.es/export/drupaljda/JdA-Manual-IC-PaletaColor.pdf*/
+h5 {
+  color: #007932 !important;
+}
+
+.hoja-numero {
+  font-size: x-small;
+}
+h6 {
+  font-weight: bold;
+}
+
+p{
+    font-size: small;
+}
+
+input[type=number] {
+    width: 30px;
+    
+}
+input[type=number], label {
+    margin-top: 10px;
+}
+textarea{
+    margin-top: 10px !important;
+    width: 440px;
+}
+
+input[type=submit] {
+    padding: 5px;
+    border-radius: 10px;
+    color: #007932;
+    border: 1px solid #007932;
+}
